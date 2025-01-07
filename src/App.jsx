@@ -13,7 +13,7 @@ import React, { useState } from 'react'
         
         try {
           // Create URL with query parameters
-          const url = new URL('https://molinero.app.n8n.cloud/webhook-test/6ccba916-c1eb-4f08-9bbb-07716c4de53e')
+          const url = new URL('https://primary-production-b08b.up.railway.app/webhook/6ccba916-c1eb-4f08-9bbb-07716c4de53e')
           url.searchParams.append('focus', focus)
           url.searchParams.append('level', level)
 
